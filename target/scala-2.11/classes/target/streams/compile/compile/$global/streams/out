@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{SaveMode, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.lit[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:10:20: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  val rootLogger = Logger.getRootLogger()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:14:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.OFF)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:14:36: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org").setLevel(Level.OFF)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:15:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("akka").setLevel(Level.OFF)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:15:37: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("akka").setLevel(Level.OFF)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/untitled6/src/main/scala/delta.scala:17:15: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val Spark = SparkSession.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
